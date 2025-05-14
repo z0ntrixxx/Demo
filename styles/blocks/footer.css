@@ -1,5 +1,6 @@
 /* Основные стили футера */
 .footer {
+    display: flex;
     font-family: 'Inter', sans-serif;
     background-color: #f8f8f8;
     padding: 60px 0 30px;
@@ -30,7 +31,7 @@
 /* Навигация */
 .footer__nav {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    flex-grow: 1;
     gap: 30px;
     margin-bottom: 50px;
 }
