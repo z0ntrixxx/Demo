@@ -1,3 +1,87 @@
-.plagins{
-    
+/* Основные стили секции */
+.plugins {
+    font-family: 'Inter', sans-serif;
+    padding: 80px 0;
+    position: relative;
+    background-color: #fff;
+    text-align: center;
 }
+
+.plugins__content {
+    max-width: 800px;
+    margin: 0 auto 60px;
+}
+
+/* Стили подзаголовка */
+.plugins__subtitle {
+    font-size: 14px;
+    font-weight: 500;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Стили основного заголовка */
+.plugins__title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #000;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.plugins__span {
+    color: #0033FF; /* Акцентный цвет */
+}
+
+/* Стили описания */
+.plugins__description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin: 0 auto 30px;
+    max-width: 600px;
+}
+
+/* Стили кнопки */
+.plugins__button {
+    background-color: #0033FF;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.plugins__button:hover {
+    background-color: #0022CC;
+}
+
+/* Стили для логотипов */
+.plugins__outer-logo,
+.plugins__iner-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 30px auto;
+}
+
+.plugins__outer-logo img,
+.plugins__iner-logo img {
+    height: 40px;
+    width: auto;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.plugins__outer-logo img:hover,
+.plugins__iner-logo img:hover {
+    opacity: 1;
+}
+
